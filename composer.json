@@ -8,8 +8,8 @@
         "guzzlehttp/psr7": "^1.4.1",
         "guzzlehttp/promises": "^1.0",
         "nesbot/carbon": "^1.39",
-        "symfony/console": "^5.4",
-        "symfony/http-foundation": "^5.4",
+        "symfony/console": "^2.7.51",
+        "symfony/http-foundation": "^2.7.51",
         "vlucas/phpdotenv": "^2.6"
     },
     "autoload": {
