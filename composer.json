@@ -1,5 +1,5 @@
 {
-    "name": "yourusername/pagarme-sdk",
+    "name": "fragososoftaware/pagarme-sdk",
     "description": "A Domain-Driven Design (DDD) SDK for integrating with the Pagar.me API.",
     "type": "library",
     "require": {
