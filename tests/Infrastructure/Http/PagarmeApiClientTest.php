@@ -4,7 +4,7 @@
 namespace Tests\Infrastructure\Http;
 
 use PHPUnit\Framework\TestCase;
-use App\Infrastructure\Http\PagarmeApiClient;
+use FragosoSoftware\PagarmeSdk\Infrastructure\Http\PagarmeApiClient;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\RequestException;

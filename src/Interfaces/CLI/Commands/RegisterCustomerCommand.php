@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Interfaces\CLI\Commands;
+namespace FragosoSoftware\PagarmeSdk\Interfaces\CLI\Commands;
 
-use App\Application\Services\CustomerService;
-use App\Application\DTO\CustomerDTO;
-use App\Application\DTO\AddressDTO;
-use App\Application\DTO\PhoneDTO;
+use FragosoSoftware\PagarmeSdk\Application\Services\CustomerService;
+use FragosoSoftware\PagarmeSdk\Application\DTO\CustomerDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\AddressDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\PhoneDTO;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

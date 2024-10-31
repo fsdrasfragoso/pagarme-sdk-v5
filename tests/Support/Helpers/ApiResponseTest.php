@@ -4,7 +4,7 @@
 namespace Tests\Support\Helpers;
 
 use PHPUnit\Framework\TestCase;
-use App\Support\Helpers\ApiResponse;
+use FragosoSoftware\PagarmeSdk\Support\Helpers\ApiResponse;
 
 class ApiResponseTest extends TestCase
 {

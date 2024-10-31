@@ -3,13 +3,13 @@
 namespace Tests\Infrastructure\Repositories;
 
 use PHPUnit\Framework\TestCase;
-use App\Infrastructure\Repositories\CustomerRepository;
-use App\Infrastructure\Http\PagarmeApiClient;
-use App\Application\DTO\CustomerDTO;
-use App\Application\DTO\AddressDTO;
-use App\Application\DTO\PhoneDTO;
-use App\Application\DTO\HomePhoneDTO;
-use App\Application\DTO\MobilePhoneDTO;
+use FragosoSoftware\PagarmeSdk\Infrastructure\Repositories\CustomerRepository;
+use FragosoSoftware\PagarmeSdk\Infrastructure\Http\PagarmeApiClient;
+use FragosoSoftware\PagarmeSdk\Application\DTO\CustomerDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\AddressDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\PhoneDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\HomePhoneDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\MobilePhoneDTO;
 
 class CustomerRepositoryTest extends TestCase
 {

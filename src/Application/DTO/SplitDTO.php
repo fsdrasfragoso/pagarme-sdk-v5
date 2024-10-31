@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Application\DTO;
+namespace FragosoSoftware\PagarmeSdk\Application\DTO;
 
 class SplitDTO
 {

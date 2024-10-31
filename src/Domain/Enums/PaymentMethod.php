@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Enums;
+namespace FragosoSoftware\PagarmeSdk\Domain\Enums;
 
 enum PaymentMethod: string
 {

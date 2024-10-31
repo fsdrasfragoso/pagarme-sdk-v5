@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Application\Services;
+namespace FragosoSoftware\PagarmeSdk\Application\Services;
 
-use App\Application\DTO\CardDTO;
-use App\Domain\Repositories\CardRepositoryInterface;
+use FragosoSoftware\PagarmeSdk\Application\DTO\CardDTO;
+use FragosoSoftware\PagarmeSdk\Domain\Repositories\CardRepositoryInterface;
 
 class CardService
 {

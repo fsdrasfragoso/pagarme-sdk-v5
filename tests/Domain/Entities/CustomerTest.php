@@ -3,11 +3,11 @@
 namespace Tests\Domain\Entities;
 
 use PHPUnit\Framework\TestCase;
-use App\Domain\Entities\Customer;
-use App\Domain\ValueObjects\Address;
-use App\Domain\ValueObjects\Phone;
-use App\Domain\ValueObjects\HomePhone;
-use App\Domain\ValueObjects\MobilePhone;
+use FragosoSoftware\PagarmeSdk\Domain\Entities\Customer;
+use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\Address;
+use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\Phone;
+use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\HomePhone;
+use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\MobilePhone;
 
 class CustomerTest extends TestCase
 {

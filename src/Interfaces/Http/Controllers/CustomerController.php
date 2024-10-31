@@ -1,12 +1,12 @@
 
 <?php
 
-namespace App\Interfaces\Http\Controllers;
+namespace FragosoSoftware\PagarmeSdk\Interfaces\Http\Controllers;
 
-use App\Application\Services\CustomerService;
-use App\Application\DTO\CustomerDTO;
-use App\Application\DTO\AddressDTO;
-use App\Application\DTO\PhoneDTO;
+use FragosoSoftware\PagarmeSdk\Application\Services\CustomerService;
+use FragosoSoftware\PagarmeSdk\Application\DTO\CustomerDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\AddressDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\PhoneDTO;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
 

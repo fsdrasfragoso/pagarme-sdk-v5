@@ -1,10 +1,10 @@
 
 <?php
 
-namespace App\Application\Services;
+namespace FragosoSoftware\PagarmeSdk\Application\Services;
 
-use App\Application\DTO\CustomerDTO;
-use App\Domain\Repositories\CustomerRepositoryInterface;
+use FragosoSoftware\PagarmeSdk\Application\DTO\CustomerDTO;
+use FragosoSoftware\PagarmeSdk\Domain\Repositories\CustomerRepositoryInterface;
 
 class CustomerService
 {

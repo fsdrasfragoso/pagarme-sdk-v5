@@ -4,7 +4,7 @@
 namespace Tests\Domain\ValueObjects;
 
 use PHPUnit\Framework\TestCase;
-use App\Domain\ValueObjects\Address;
+use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\Address;
 
 class AddressTest extends TestCase
 {

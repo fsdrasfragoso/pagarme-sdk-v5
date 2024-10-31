@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Infrastructure\Http;
+namespace FragosoSoftware\PagarmeSdk\Infrastructure\Http;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;

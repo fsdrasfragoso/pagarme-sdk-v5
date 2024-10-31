@@ -3,7 +3,7 @@
 namespace Tests\Support\Helpers;
 
 use PHPUnit\Framework\TestCase;
-use App\Support\Helpers\JsonParser;
+use FragosoSoftware\PagarmeSdk\Support\Helpers\JsonParser;
 
 class JsonParserTest extends TestCase
 {

@@ -1,16 +1,16 @@
 
 <?php
 
-namespace App\Interfaces\Http\Controllers;
+namespace FragosoSoftware\PagarmeSdk\Interfaces\Http\Controllers;
 
-use App\Application\Services\OrderService;
-use App\Application\DTO\OrderDTO;
-use App\Application\DTO\ItemDTO;
-use App\Application\DTO\ShippingDTO;
-use App\Application\DTO\PaymentDTO;
+use FragosoSoftware\PagarmeSdk\Application\Services\OrderService;
+use FragosoSoftware\PagarmeSdk\Application\DTO\OrderDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\ItemDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\ShippingDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\PaymentDTO;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
-use App\Domain\Enums\PaymentMethod;
+use FragosoSoftware\PagarmeSdk\Domain\Enums\PaymentMethod;
 
 class OrderController
 {

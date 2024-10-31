@@ -1,16 +1,16 @@
 <?php
 
-use App\Interfaces\Http\Controllers\CustomerController;
-use App\Application\Services\CustomerService;
-use App\Infrastructure\Repositories\CustomerRepository;
-use App\Infrastructure\Http\PagarmeApiClient;
+use FragosoSoftware\PagarmeSdk\Interfaces\Http\Controllers\CustomerController;
+use FragosoSoftware\PagarmeSdk\Application\Services\CustomerService;
+use FragosoSoftware\PagarmeSdk\Infrastructure\Repositories\CustomerRepository;
+use FragosoSoftware\PagarmeSdk\Infrastructure\Http\PagarmeApiClient;
 use Symfony\Component\HttpFoundation\Request;
-use App\Interfaces\Http\Controllers\CardController;
-use App\Application\Services\CardService;
-use App\Infrastructure\Repositories\CardRepository;
-use App\Interfaces\Http\Controllers\OrderController;
-use App\Application\Services\OrderService;
-use App\Infrastructure\Repositories\OrderRepository;
+use FragosoSoftware\PagarmeSdk\Interfaces\Http\Controllers\CardController;
+use FragosoSoftware\PagarmeSdk\Application\Services\CardService;
+use FragosoSoftware\PagarmeSdk\Infrastructure\Repositories\CardRepository;
+use FragosoSoftware\PagarmeSdk\Interfaces\Http\Controllers\OrderController;
+use FragosoSoftware\PagarmeSdk\Application\Services\OrderService;
+use FragosoSoftware\PagarmeSdk\Infrastructure\Repositories\OrderRepository;
 
 $router->post('/customers', function (Request $request) {
     $storeAccessToken = getenv('PAGARME_STORE_ACCESS_TOKEN');

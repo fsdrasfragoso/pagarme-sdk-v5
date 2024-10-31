@@ -1,10 +1,10 @@
 
 <?php
 
-namespace App\Infrastructure\Repositories;
+namespace FragosoSoftware\PagarmeSdk\Infrastructure\Repositories;
 
-use App\Domain\Repositories\CustomerRepositoryInterface;
-use App\Infrastructure\Http\PagarmeApiClient;
+use FragosoSoftware\PagarmeSdk\Domain\Repositories\CustomerRepositoryInterface;
+use FragosoSoftware\PagarmeSdk\Infrastructure\Http\PagarmeApiClient;
 
 class CustomerRepository implements CustomerRepositoryInterface
 {

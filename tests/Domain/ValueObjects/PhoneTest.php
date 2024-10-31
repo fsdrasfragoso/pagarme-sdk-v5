@@ -4,9 +4,9 @@
 namespace Tests\Domain\ValueObjects;
 
 use PHPUnit\Framework\TestCase;
-use App\Domain\ValueObjects\Phone;
-use App\Domain\ValueObjects\HomePhone;
-use App\Domain\ValueObjects\MobilePhone;
+use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\Phone;
+use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\HomePhone;
+use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\MobilePhone;
 
 class PhoneTest extends TestCase
 {

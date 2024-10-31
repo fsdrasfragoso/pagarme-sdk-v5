@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Domain\Entities;
+namespace FragosoSoftware\PagarmeSdk\Domain\Entities;
 
-use App\Domain\ValueObjects\Address;
-use App\Domain\ValueObjects\Phone;
+use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\Address;
+use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\Phone;
 
 class Customer
 {

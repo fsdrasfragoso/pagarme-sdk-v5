@@ -1,9 +1,9 @@
 
 <?php
 
-namespace App\Domain\Entities;
+namespace FragosoSoftware\PagarmeSdk\Domain\Entities;
 
-use App\Domain\ValueObjects\Address;
+use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\Address;
 
 class Card
 {

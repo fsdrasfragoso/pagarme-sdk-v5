@@ -1,11 +1,11 @@
 
 <?php
 
-namespace App\Interfaces\Http\Controllers;
+namespace FragosoSoftware\PagarmeSdk\Interfaces\Http\Controllers;
 
-use App\Application\Services\CardService;
-use App\Application\DTO\CardDTO;
-use App\Application\DTO\AddressDTO;
+use FragosoSoftware\PagarmeSdk\Application\Services\CardService;
+use FragosoSoftware\PagarmeSdk\Application\DTO\CardDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\AddressDTO;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
 

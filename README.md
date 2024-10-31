@@ -31,8 +31,8 @@ PAGARME_STORE_ACCESS_TOKEN=seu_token_de_acesso
 1. Instancie OrderDTO com os dados necessários do pedido.
 2. Use OrderService para enviar o pedido ao Pagar.me.
 ```php
-use App\Application\Services\OrderService;
-use App\Application\DTO\OrderDTO;
+use FragosoSoftware\PagarmeSdk\Application\Services\OrderService;
+use FragosoSoftware\PagarmeSdk\Application\DTO\OrderDTO;
 
 $orderDTO = new OrderDTO($customer, $items, $payments);
 $orderService = new OrderService($orderRepository);

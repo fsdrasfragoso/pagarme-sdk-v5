@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Application\DTO;
+namespace FragosoSoftware\PagarmeSdk\Application\DTO;
 
-use App\Domain\Enums\PaymentMethod;
+use FragosoSoftware\PagarmeSdk\Domain\Enums\PaymentMethod;
 
 class PaymentDTO
 {

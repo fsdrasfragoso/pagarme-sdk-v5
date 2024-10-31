@@ -4,7 +4,7 @@
 namespace Tests\Application\DTO;
 
 use PHPUnit\Framework\TestCase;
-use App\Application\DTO\AddressDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\AddressDTO;
 
 class AddressDTOTest extends TestCase
 {

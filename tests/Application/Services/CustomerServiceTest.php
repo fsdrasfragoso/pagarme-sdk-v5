@@ -4,13 +4,13 @@
 namespace Tests\Application\Services;
 
 use PHPUnit\Framework\TestCase;
-use App\Application\Services\CustomerService;
-use App\Domain\Repositories\CustomerRepositoryInterface;
-use App\Application\DTO\CustomerDTO;
-use App\Application\DTO\AddressDTO;
-use App\Application\DTO\PhoneDTO;
-use App\Application\DTO\HomePhoneDTO;
-use App\Application\DTO\MobilePhoneDTO;
+use FragosoSoftware\PagarmeSdk\Application\Services\CustomerService;
+use FragosoSoftware\PagarmeSdk\Domain\Repositories\CustomerRepositoryInterface;
+use FragosoSoftware\PagarmeSdk\Application\DTO\CustomerDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\AddressDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\PhoneDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\HomePhoneDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\MobilePhoneDTO;
 
 class CustomerServiceTest extends TestCase
 {

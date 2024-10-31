@@ -1,8 +1,8 @@
 <?php
-namespace App\Application\DTO;
+namespace FragosoSoftware\PagarmeSdk\Application\DTO;
 
-use App\Application\DTO\HomePhoneDTO;
-use App\Application\DTO\MobilePhoneDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\HomePhoneDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\MobilePhoneDTO;
 
 class PhoneDTO
 {

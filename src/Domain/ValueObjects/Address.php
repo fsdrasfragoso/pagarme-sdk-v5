@@ -1,7 +1,7 @@
 
 <?php
 
-namespace App\Domain\ValueObjects;
+namespace FragosoSoftware\PagarmeSdk\Domain\ValueObjects;
 
 class Address
 {

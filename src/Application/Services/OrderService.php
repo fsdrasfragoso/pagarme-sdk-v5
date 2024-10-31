@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Application\Services;
+namespace FragosoSoftware\PagarmeSdk\Application\Services;
 
-use App\Application\DTO\OrderDTO;
-use App\Application\DTO\PaymentDTO;
-use App\Application\DTO\SplitDTO;
-use App\Domain\Repositories\OrderRepositoryInterface;
-use App\Domain\Enums\PaymentMethod;
+use FragosoSoftware\PagarmeSdk\Application\DTO\OrderDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\PaymentDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\SplitDTO;
+use FragosoSoftware\PagarmeSdk\Domain\Repositories\OrderRepositoryInterface;
+use FragosoSoftware\PagarmeSdk\Domain\Enums\PaymentMethod;
 
 class OrderService
 {

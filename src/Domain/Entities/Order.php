@@ -1,11 +1,11 @@
 
 <?php
 
-namespace App\Domain\Entities;
+namespace FragosoSoftware\PagarmeSdk\Domain\Entities;
 
-use App\Domain\ValueObjects\Shipping;
-use App\Domain\ValueObjects\Item;
-use App\Domain\ValueObjects\Payment;
+use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\Shipping;
+use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\Item;
+use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\Payment;
 
 class Order
 {

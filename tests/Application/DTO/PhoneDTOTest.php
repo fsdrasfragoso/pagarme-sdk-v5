@@ -4,9 +4,9 @@
 namespace Tests\Application\DTO;
 
 use PHPUnit\Framework\TestCase;
-use App\Application\DTO\PhoneDTO;
-use App\Application\DTO\HomePhoneDTO;
-use App\Application\DTO\MobilePhoneDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\PhoneDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\HomePhoneDTO;
+use FragosoSoftware\PagarmeSdk\Application\DTO\MobilePhoneDTO;
 
 class PhoneDTOTest extends TestCase
 {

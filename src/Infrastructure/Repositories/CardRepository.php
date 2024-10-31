@@ -1,11 +1,11 @@
 
 <?php
 
-namespace App\Infrastructure\Repositories;
+namespace FragosoSoftware\PagarmeSdk\Infrastructure\Repositories;
 
-use App\Domain\Repositories\CardRepositoryInterface;
-use App\Infrastructure\Http\PagarmeApiClient;
-use App\Application\DTO\CardDTO;
+use FragosoSoftware\PagarmeSdk\Domain\Repositories\CardRepositoryInterface;
+use FragosoSoftware\PagarmeSdk\Infrastructure\Http\PagarmeApiClient;
+use FragosoSoftware\PagarmeSdk\Application\DTO\CardDTO;
 
 class CardRepository implements CardRepositoryInterface
 {

@@ -1,7 +1,7 @@
 
 <?php
 
-namespace App\Support\Helpers;
+namespace FragosoSoftware\PagarmeSdk\Support\Helpers;
 
 use Symfony\Component\HttpFoundation\JsonResponse;
 
