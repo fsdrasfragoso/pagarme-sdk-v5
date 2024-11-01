@@ -7,6 +7,8 @@ interface CustomerRepositoryInterface
     public function findById($customerId);
     public function update($customerId, array $customerData);
     public function list(array $filters = []);
+    public function setStoreAccessToken($storeAccessToken);
+
 
 }
 

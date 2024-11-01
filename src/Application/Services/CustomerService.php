@@ -43,6 +43,13 @@ class CustomerService
     }
 
 
+    public function setStoreAccessToken($storeAccessToken)
+    {
+        $this->customerRepository->setStoreAccessToken($storeAccessToken); // Repasse ao CustomerRepository
+    }
+
+
+
     private function convertToRepositoryArray(CustomerDTO $customerData)
     {
         return [

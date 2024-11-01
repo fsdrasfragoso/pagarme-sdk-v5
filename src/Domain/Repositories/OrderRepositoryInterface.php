@@ -59,4 +59,7 @@ interface OrderRepositoryInterface
      * @return array The list of orders.
      */
     public function list(array $filters = []);
+
+    public function setStoreAccessToken($storeAccessToken);
+
 }

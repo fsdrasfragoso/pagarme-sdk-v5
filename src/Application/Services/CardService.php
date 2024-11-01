@@ -13,6 +13,11 @@ class CardService
         $this->cardRepository = $cardRepository;
     }
 
+    public function setStoreAccessToken($storeAccessToken)
+    {
+        $this->cardRepository->setStoreAccessToken($storeAccessToken); 
+    }
+
     public function createCard($customerId, CardDTO $cardData)
     {
         return $this->cardRepository->create($customerId, $this->convertToRepositoryArray($cardData));

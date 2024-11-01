@@ -43,4 +43,9 @@ class CardRepository implements CardRepositoryInterface
     {
         return $this->apiClient->post("customers/{$customerId}/cards/{$cardId}/renew", []);
     }
+
+    public function setStoreAccessToken($storeAccessToken)
+    {
+        $this->apiClient->setStoreAccessToken($storeAccessToken);
+    }
 }

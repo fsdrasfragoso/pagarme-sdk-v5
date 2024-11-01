@@ -47,4 +47,9 @@ class OrderRepository implements OrderRepositoryInterface
     {
         return $this->apiClient->get("orders", $filters);
     }
+
+    public function setStoreAccessToken($storeAccessToken)
+    {
+        $this->apiClient->setStoreAccessToken($storeAccessToken);
+    }
 }

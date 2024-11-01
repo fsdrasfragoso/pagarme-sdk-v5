@@ -9,4 +9,6 @@ interface CardRepositoryInterface
     public function update($customerId, $cardId, array $data);
     public function delete($customerId, $cardId);
     public function renew($customerId, $cardId);
+    public function setStoreAccessToken($storeAccessToken);
+
 }

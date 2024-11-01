@@ -33,5 +33,12 @@ class CustomerRepository implements CustomerRepositoryInterface
         return $this->apiClient->get('customers', $filters);
     }
 
+    public function setStoreAccessToken($storeAccessToken)
+    {
+        $this->apiClient->setStoreAccessToken($storeAccessToken);
+    }
+
+    
+
 }
 

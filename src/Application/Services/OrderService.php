@@ -16,6 +16,13 @@ class OrderService
         $this->orderRepository = $orderRepository;
     }
 
+
+    public function setStoreAccessToken($storeAccessToken)
+    {
+        $this->orderRepository->setStoreAccessToken($storeAccessToken); 
+    }
+
+
     public function createOrder(OrderDTO $orderData)
     {
         $orderArray = [

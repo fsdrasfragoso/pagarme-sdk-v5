@@ -11,12 +11,16 @@ class PagarmeApiClient
     private $apiVersion;
     private $storeAccessToken;
 
-    public function __construct($storeAccessToken)
-    {
-        $this->storeAccessToken = $storeAccessToken;
+    public function __construct()
+    {        
         $this->baseUrl = getenv('PAGARME_BASE_URL') ?: 'https://api.pagar.me';
         $this->apiVersion = getenv('PAGARME_API_VERSION') ?: 'core/v5';
         $this->client = new Client(['base_uri' => $this->baseUrl]);
+    }
+
+    public function setStoreAccessToken($storeAccessToken)
+    {
+        $this->storeAccessToken = $storeAccessToken;
     }
 
     private function getHeaders()
