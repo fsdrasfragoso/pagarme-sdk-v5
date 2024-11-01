@@ -1,4 +1,3 @@
-
 <?php
 namespace FragosoSoftware\PagarmeSdk\Application\Services;
 
