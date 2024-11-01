@@ -1,9 +1,9 @@
 <?php
 namespace FragosoSoftware\PagarmeSdk\Domain\Enums;
 
-enum PaymentMethod: string
+class PaymentMethod
 {
-    case CREDIT_CARD = 'credit_card';
-    case BOLETO = 'boleto';
-    case PIX = 'pix';    
+    const CREDIT_CARD = 'credit_card';
+    const BOLETO = 'boleto';
+    const PIX = 'pix';
 }
