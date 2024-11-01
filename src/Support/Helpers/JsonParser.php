@@ -1,6 +1,5 @@
 
 <?php
-
 namespace FragosoSoftware\PagarmeSdk\Support\Helpers;
 
 class JsonParser

@@ -1,5 +1,4 @@
 <?php
-
 namespace FragosoSoftware\PagarmeSdk\Domain\Entities;
 
 use FragosoSoftware\PagarmeSdk\Domain\ValueObjects\Address;

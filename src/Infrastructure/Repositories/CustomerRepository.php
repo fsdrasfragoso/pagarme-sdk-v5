@@ -1,6 +1,5 @@
 
 <?php
-
 namespace FragosoSoftware\PagarmeSdk\Infrastructure\Repositories;
 
 use FragosoSoftware\PagarmeSdk\Domain\Repositories\CustomerRepositoryInterface;

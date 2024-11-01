@@ -1,5 +1,4 @@
 <?php
-
 namespace FragosoSoftware\PagarmeSdk\Interfaces\CLI\Commands;
 
 use FragosoSoftware\PagarmeSdk\Application\Services\CustomerService;

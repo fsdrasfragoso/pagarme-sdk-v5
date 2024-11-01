@@ -1,6 +1,5 @@
 
 <?php
-
 namespace FragosoSoftware\PagarmeSdk\Domain\Repositories;
 
 interface OrderRepositoryInterface

@@ -1,5 +1,4 @@
 <?php
-
 namespace FragosoSoftware\PagarmeSdk\Application\Services;
 
 use FragosoSoftware\PagarmeSdk\Application\DTO\CardDTO;

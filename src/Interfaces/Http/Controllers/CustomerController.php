@@ -1,6 +1,5 @@
 
 <?php
-
 namespace FragosoSoftware\PagarmeSdk\Interfaces\Http\Controllers;
 
 use FragosoSoftware\PagarmeSdk\Application\Services\CustomerService;

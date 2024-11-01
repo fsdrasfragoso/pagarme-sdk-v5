@@ -1,5 +1,4 @@
 <?php
-
 namespace FragosoSoftware\PagarmeSdk\Domain\Repositories;
 
 interface CardRepositoryInterface

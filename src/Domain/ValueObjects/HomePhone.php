@@ -1,5 +1,4 @@
 <?php
-
 namespace FragosoSoftware\PagarmeSdk\Domain\ValueObjects;
 
 class HomePhone

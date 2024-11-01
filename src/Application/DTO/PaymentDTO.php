@@ -1,5 +1,4 @@
 <?php
-
 namespace FragosoSoftware\PagarmeSdk\Application\DTO;
 
 use FragosoSoftware\PagarmeSdk\Domain\Enums\PaymentMethod;
