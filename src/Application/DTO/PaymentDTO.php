@@ -14,10 +14,14 @@ class PaymentDTO
 
     public function __construct(
         int $amount,
-        PaymentMethod $paymentMethod,
+        string $paymentMethod,
         $paymentDetails = null,
         array $split = []
     ) {
+        if (!in_array($paymentMethod, [PaymentMethod::CREDIT_CARD, PaymentMethod::BOLETO, PaymentMethod::PIX])) {
+            throw new \InvalidArgumentException("Invalid payment method: $paymentMethod");
+        }
+
         $this->amount = $amount;
         $this->paymentMethod = $paymentMethod;
         $this->split = $split;
