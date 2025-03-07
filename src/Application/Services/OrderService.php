@@ -32,6 +32,7 @@ class OrderService
             'payments' => array_map([$this, 'convertPaymentToArray'], $orderData->payments), 
             'shipping' => $this->convertShippingToArray($orderData->shipping),
             'closed' => $orderData->closed,
+            'metadata'=>['aplicativo'=>'Smplaces'],
         ];
     
         return $this->orderRepository->create($orderArray);

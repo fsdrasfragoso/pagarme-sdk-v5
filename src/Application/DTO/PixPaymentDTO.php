@@ -7,7 +7,7 @@ class PixPaymentDTO
     public $expiresAt;
     public $additionalInformation;
 
-    public function __construct(int $expiresIn, string $expiresAt, array $additionalInformation)
+    public function __construct(int $expiresIn, ?string $expiresAt, array $additionalInformation)
     {
         $this->expiresIn = $expiresIn;
         $this->expiresAt = $expiresAt;
